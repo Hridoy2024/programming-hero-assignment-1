@@ -116,10 +116,12 @@ body {
 .first-content,
 .second-content,
 .third-content {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   padding: 48px 48px;
+  width: 946px;
 }
+
 .first-content-text-box {
   width: 60%;
   /* border: 2px solid yellow; */
@@ -167,7 +169,7 @@ body {
 }
 
 .first-content-image-box img {
-  padding: 30px 70px;
+  padding: 30px 90px;
 }
 
 /*  Web-Development-part end  */
