@@ -234,3 +234,180 @@ body {
   border-radius: 16px;
 }
 /* Inspiration End */
+
+/* Current Target part start */
+
+.current-target-container {
+  width: 1140px;
+  height: 500px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-top: 80px;
+  /* border-radius: 16px; */
+}
+
+.current-target-container .current-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.current-title h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.current-title p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  width: 852px;
+  margin-top: 24px;
+}
+
+.current-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.first-card,
+.second-card,
+.third-card {
+  width: 33%;
+  /* border: 2px solid blue; */
+  border-radius: 16px;
+  height: 320px;
+  padding: 40px;
+}
+
+.first-card {
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.first-card h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.first-card  p {
+  opacity: 0.7;
+
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.first-card a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  margin-top: 8px;
+}
+
+.second-card {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.second-card h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.second-card  p {
+  opacity: 0.7;
+
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.second-card a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  margin-top: 8px;
+}
+
+.third-card {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.third-card h3 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.third-card p {
+  opacity: 0.7;
+
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.third-card a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  margin-top: 12px;
+}
+/* Current Target part end */
