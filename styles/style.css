@@ -496,6 +496,7 @@ body {
   border-radius: 8px;
   background: rgb(255, 255, 255);
   border: none;
+  cursor: pointer;
 }
 
 /* support end */
