@@ -69,15 +69,14 @@ body {
 /* Banner End */
 
 /*  Web-Development-part Start  */
-.Web-container {
+.web-container {
   width: 1140px;
   height: 1395px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 0 auto;
   margin-top: 74px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
- 
 }
 
 .web-text {
@@ -111,17 +110,18 @@ body {
   width: 852px;
 }
 
-.first-content , .second-content, .third-content{
-    width: 100%;
-    display: flex;
-    /* background-color: #ffffff; */
-    padding: 48px 48px;
-    /* background: rgba(13, 19, 33, 0.02); */
-   
+.first-content,
+.second-content,
+.third-content {
+  width: 100%;
+  display: flex;
+  /* background-color: #ffffff; */
+  padding: 48px 48px;
+  /* background: rgba(13, 19, 33, 0.02); */
 }
 .first-content-text-box {
   width: 60%;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   /* background-color: #bdbcbc09; */
   /* margin: 0 auto; */
 }
@@ -165,13 +165,72 @@ body {
 
 .first-content-image-box {
   width: 40%;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
-.first-content-image-box img{
-    padding: 30px 70px;
+.first-content-image-box img {
+  padding: 30px 70px;
 }
 
 /*  Web-Development-part end  */
 
+/* Inspiration Start */
+.inspiration-container {
+  width: 1140px;
+  height: 775px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-top: 78px;
+  border-radius: 16px;
+}
 
+.inspiration-container .title-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.title-part h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.title-part p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  width: 852px;
+  margin-top: 24px;
+}
+
+.inspiration-content {
+  width: 1140px;
+  height: 775px;
+  height: 550px;
+  margin: 0 auto;
+  margin-top: 80px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.inspiration-content iframe {
+  width: 1076px;
+  height: 550px;
+  border-radius: 16px;
+}
+/* Inspiration End */
